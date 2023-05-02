@@ -1,0 +1,114 @@
+// locations section start
+#locations {
+  .locations {
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    .location {
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.1s linear;
+      .loc-wrapper {
+        color: #000;
+        line-height: 33px;
+        margin-bottom: 15px;
+        .loc-item {
+          i {
+            margin-right: 20px;
+            margin-top: 5px;
+            font-style: normal;
+            font-variant: normal;
+            text-transform: none;
+            display: inline-block;
+            vertical-align: middle;
+            position: relative;
+            font-size: 34px;
+            color: #ff6400;
+          }
+          width: 100%;
+          padding: 35px 65px;
+          background: #fafafa;
+          border-radius: 10px;
+          transition: 0.3s;
+          .loc-name {
+            line-height: 20px;
+            font-weight: 400;
+            font-family: "CocoSharp-Regular";
+            font-size: 20px;
+            vertical-align: top;
+            width: 40%;
+            color: #000;
+            p {
+              font-weight: 700;
+              font-family: "CocoSharp-Bold";
+              margin-bottom: 0.1rem;
+            }
+            .loc-text {
+              font-size: 14px;
+              line-height: 21px;
+            }
+          }
+          .loc-date {
+            font-weight: 400;
+            font-family: "CocoSharp-Regular";
+            font-size: 14px;
+            line-height: 16px;
+            width: 30%;
+            color: #000;
+          }
+          .loc-info {
+            width: 30%;
+            font-weight: 200;
+            color: #000;
+            font-family: "CocoSharp-Light";
+            font-size: 14px;
+            line-height: 16px;
+            i {
+              margin-top: 0px;
+              font-size: 33px;
+            }
+          }
+          &:hover {
+            background-color: #ff6400;
+            color: #fafafa;
+            i {
+              color: #fafafa;
+            }
+            .loc-name,
+            .loc-text,
+            .loc-date,
+            .loc-info {
+              color: #fafafa;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// locations section end
+
+// note section start
+#note {
+  .note {
+    font-family: "CocoSharp-Regular";
+    font-weight: 400;
+    line-height: 16px;
+    background: #ff6400;
+    padding: 25px 65px 15px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 10px;
+    i {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+    .note-text {
+      line-height: 18px;
+      font-family: "CocoSharp-Bold";
+      font-weight: 700;
+    }
+  }
+}
+// note section end

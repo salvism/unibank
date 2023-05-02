@@ -1,0 +1,134 @@
+// top-cards section start
+#top-cards {
+  margin-bottom: 55px;
+  .top-cards {
+    margin-top: 30px;
+    background: #fafafa;
+    border-radius: 10px;
+    padding: 50px 65px;
+    .top-cards-img {
+      width: calc(100% / 3);
+      img {
+        width: 315px;
+        box-shadow: -15px 15px 30px 0 rgba(0, 0, 0, 0.24);
+        padding: 0;
+        border-radius: 15px;
+        max-width: 100%;
+      }
+    }
+    .top-cards-text {
+      width: calc(100% / 1.5);
+      padding-left: 18px;
+      .top-cards-header {
+        align-items: flex-end;
+        margin-bottom: 10px;
+        .top-cards-heading {
+          margin-top: 20px;
+          font-weight: 800;
+          font-family: "CocoSharp-ExtraBold";
+          font-size: 24px;
+          color: #000;
+          line-height: 30px;
+        }
+      }
+      .top-cards-desc {
+        font-family: "CocoSharp-Regular";
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 25px;
+        color: #000;
+        margin-bottom: 25px;
+      }
+      .top-cards-advs {
+        .advs {
+          width: 100%;
+          .adv {
+            width: calc(100% / 3);
+            .adv-icon {
+              font-size: 34px;
+              line-height: 65px;
+              margin-right: 10px;
+              i {
+                color: #ff6b00;
+              }
+            }
+            .adv-value {
+              font-family: "CocoSharp-Bold";
+              font-weight: 700;
+              font-size: 16px;
+              line-height: normal;
+              color: #000;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// top-cards section end
+.btn2 {
+  margin-bottom: 12px;
+  a {
+    padding: 14px 30px !important;
+  }
+  i {
+    margin-left: 10px;
+    height: 19px;
+    line-height: 19px;
+  }
+}
+// commoncards section start
+#commoncards {
+  margin-top: 30px;
+  margin-bottom: 55px;
+  .commoncards {
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    .commoncard-w {
+      width: 50%;
+      padding: 0 15px;
+      .commoncard {
+        width: 100%;
+        flex-direction: column;
+        padding: 45px 65px;
+        border-radius: 10px;
+        background: #fafafa;
+        margin-top: 30px;
+        img {
+          width: 315px;
+          border-radius: 15px;
+          box-shadow: -15px 15px 30px 0 rgba(0, 0, 0, 0.24);
+        }
+        .d-card-text {
+          margin-top: 40px;
+          width: 100%;
+          .d-name {
+            font-family: "CocoSharp-ExtraBold";
+            font-weight: 800;
+            font-size: 24px;
+            line-height: normal;
+            margin-bottom: 10px;
+            color: #000;
+          }
+          .d-desc {
+            font-family: "CocoSharp-Regular";
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 25px;
+            margin-bottom: 25px;
+            height: 75px;
+            color: #000;
+          }
+          .card-btns{
+            .btn2{
+                margin-right: 10px;
+                margin-bottom: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// commoncards section end

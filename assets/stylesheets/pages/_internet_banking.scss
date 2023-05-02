@@ -1,0 +1,216 @@
+.body {
+  background-image: url("/assets/img/ibanking-bg.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #3f3f3f;
+  letter-spacing: 0;
+  height: 880px;
+}
+
+// header start
+header {
+  .outer-login {
+    margin: 3% auto;
+    .wrapper-inner {
+      margin: 0 15px;
+      .header {
+        padding-bottom: 5px;
+        font-size: 14px;
+        margin-top: 68px;
+        color: #fff;
+        .second-col {
+          text-align: right;
+          padding-right: 1px;
+          form {
+            a {
+              padding: 4px;
+              cursor: pointer;
+              text-decoration: none !important;
+              color: #7c7c7c !important;
+              border-radius: 2px;
+              transition: 0.7s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// header end
+
+// main start
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  // content-login start
+  .content-login {
+    box-shadow: 0 40px 50px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    width: 1062px;
+    min-height: 450px;
+    background-color: #fafafa;
+
+    // left section start
+    #left {
+      width: 50%;
+      min-height: 734px;
+      height: auto !important;
+      border-radius: 5px;
+      .slide-info {
+        .fade-box {
+          position: relative;
+          animation: animateleft 1s;
+        }
+        .card-items {
+          margin: 0 auto;
+          width: 324px;
+          margin-top: 103px;
+          .card-img {
+            width: 96%;
+            img {
+              width: 108%;
+              border-radius: 6px;
+              box-shadow: 10px 10px 33px 0 rgba(0, 0, 0, 0.15);
+            }
+          }
+          .card-info {
+            padding-left: 10px;
+            height: 200px;
+            h4 {
+              color: #3e3e3e;
+              font-size: 20px;
+              margin-top: 26px;
+              margin-bottom: 26px;
+            }
+            p {
+              color: #9b9b9b;
+            }
+          }
+        }
+        .dots {
+          margin-top: 33px;
+          .dot {
+            cursor: pointer;
+            height: 13px;
+            width: 13px;
+            margin: 0 2px;
+            background-color: rgba(175, 168, 168, 0.55);
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+          }
+          .active-dot {
+            background-color: rgba(255, 100, 0, 0.8) !important;
+            border: none;
+          }
+        }
+      }
+    }
+    // left section end
+
+    // right section start
+    #right {
+      width: 50%;
+      border-radius: 5px;
+      padding-top: 60px;
+      background-color: white;
+      box-shadow: -8px 3px 12px 4px rgba(0, 0, 0, 0.08);
+      form {
+        .login-forms {
+          width: 89%;
+          padding-left: 40px;
+          .header-texts {
+            font-size: 0.9rem;
+            font-family: "Source Sans Pro", sans-serif;
+            h3 {
+              font-size: 1.17em;
+              font-weight: bold;
+            }
+            a {
+              float: right;
+              padding-right: 27px;
+              color: #000;
+              text-decoration: underline;
+              text-underline-position: under;
+              font-size: 17px;
+            }
+          }
+          .qr-code-wrapper {
+            padding-left: 6px;
+            padding-top: 24px;
+
+            span {
+              img {
+                float: left;
+                margin-left: -17px;
+                width: 185px;
+                margin-top: 3px;
+              }
+            }
+          }
+          .login-type-button {
+            width: 271px;
+            padding-top: 36px;
+            .by-type-active,
+            .by-type {
+              width: 249px;
+              border-radius: 5px;
+              padding: 20px 2px;
+              margin-top: 11px;
+
+              .type-inner-elements {
+                margin: 0 auto;
+                width: 80%;
+                span {
+                  margin-left: 10px;
+                }
+                .value-btn-active {
+                  border-bottom: 1px solid #fd9b00;
+                  padding-bottom: 2px;
+                }
+                .value-btn,
+                .value-btn-active {
+                  color: #000;
+                }
+              }
+            }
+            .by-type-active {
+              border: 1px solid #ff9500;
+            }
+            .by-type {
+              border: 1px solid #d2d2d2;
+            }
+          }
+          .info-wrapper {
+            padding: 7px;
+            font-size: 14px;
+            color: gray;
+            width: 97%;
+            background: #f3f3f3;
+            img {
+              padding-right: 12px;
+              opacity: 0.6;
+              cursor: pointer;
+            }
+          }
+          .right-bottom {
+            .login-inputs {
+              width: 100%;
+              margin-top: 47px;
+            }
+            .login-bottom-inputs {
+              width: 100%;
+              height: 145px;
+            }
+          }
+        }
+      }
+    }
+    // right section end
+  }
+  // content-login end
+}
+// main end

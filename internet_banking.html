@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/stylesheets/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/stylesheets/style.css" />
+    <title>Login</title>
+  </head>
+  <body class="body">
+    <!-- header start -->
+    <header>
+      <div class="outer-login">
+        <div class="wrapper-inner">
+          <div class="header d-flex">
+            <div class="col-lg-6 first-col">
+              <img src="/assets/img/main-logo.webp" alt="main logo" />
+            </div>
+            <div class="col-lg-6 second-col">
+              <form>
+                <a href="#">AZ</a>
+                <a href="#">EN</a>
+                <a href="#">RU</a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main class="main">
+      <!-- content-login start -->
+      <div class="content-login">
+        <div class="content-login-card d-flex justify-content-between">
+          <section id="left" class="d-flex flex-column align-items-center">
+            <div class="slide-info">
+              <div id="box1" class="fade-box card-items">
+                <div class="card-img">
+                  <img src="/assets/img/slide-img-1.webp" alt="slide img" />
+                </div>
+                <div class="card-info">
+                  <h4>Order a card with delivery</h4>
+                  <p>
+                    Order any debit card in uBank without leaving home, and we
+                    will deliver it to your address
+                  </p>
+                </div>
+              </div>
+              <div id="box2" class="fade-box card-items d-none">
+                <div class="card-img">
+                  <img src="/assets/img/slide-img-2.webp" alt="slide img" />
+                </div>
+                <div class="card-info">
+                  <h4>Unibank Mobile</h4>
+                  <p>
+                    Making payments and transfers through Unibank Mobile, earn
+                    bonuses and exchange them for valuable gifts!
+                  </p>
+                </div>
+              </div>
+              <div class="dots text-center">
+                <span class="dot"></span>
+                <span class="dot active-dot"></span>
+              </div>
+            </div>
+          </section>
+          <section id="right" class="d-flex flex-column">
+            <form id="loginform" name="loginform" method="post">
+              <div class="login-forms">
+                <div class="header-texts">
+                  <h3>
+                    <span>Log into Internet Banking </span>
+                    <a href="#">Registration</a>
+                  </h3>
+                </div>
+                <div class="right-top d-flex">
+                    <div class="qr-code-wrapper text-center">
+                        <span class="text-center">
+                          <img src="/assets/img/qrCode.png" alt="qr code" />
+                        </span>
+                      </div>
+                      <div class="login-type-button">
+                        <a href="#">
+                          <div class="by-type-active">
+                            <div class="type-inner-elements">
+                              <img
+                                src="/assets/img/login-mobile.webp"
+                                alt="login mobile"
+                              />
+                              <span class="value-btn-active">By Pincode</span>
+                            </div>
+                          </div>
+                        </a>
+                        <a href="#">
+                          <div class="by-type">
+                            <div class="type-inner-elements">
+                              <img src="/assets/img/asan.webp" alt="asan" />
+                              <span class="value-btn">Asan İmza</span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                </div>
+                <div class="info-wrapper">
+                    <img src="/assets/img/login-info.webp" alt="info">
+                    Use UBank to login by QR code
+                </div>
+                <div class="right-bottom">
+                    <div class="login-inputs"></div>
+                    <div class="login-bottom-inputs"></div>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+      <!-- content-login end -->
+    </main>
+    <!-- main end -->
+    <script src="/assets/js/internet_banking.js"></script>
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>

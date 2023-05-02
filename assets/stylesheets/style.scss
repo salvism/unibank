@@ -1,0 +1,141 @@
+@import "base/fonts", "base/reset";
+@import "pages/responsive", "pages/index", "pages/service_network",
+  "pages/human_resources", "pages/cards", "pages/internet_banking";
+@import "layout/header", "layout/footer";
+@import "components/slider", "components/buttons";
+
+// content section start
+#content {
+  h1 {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 800;
+    color: #ff6400;
+    font-family: "CocoSharp-ExtraBold";
+  }
+  .content-links {
+    margin: 20px 0 15px;
+    a {
+      line-height: 14px;
+      font-size: 14px;
+      font-weight: 700;
+      font-family: "CocoSharp-Bold";
+      color: #a1a1a1;
+      text-decoration: none;
+      margin-right: 5px;
+      margin-left: 5px;
+      display: inline-block;
+      padding: 16px 40px;
+      border-radius: 25px;
+      border: 2px solid #969696;
+    }
+    .active-link {
+      border: 2px solid #ff6400;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      border-radius: 25px;
+      color: #ff6400 !important;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      position: relative;
+
+      &:after {
+        position: absolute;
+        bottom: -4px;
+        transform: rotateZ(-45deg) translate(-50%);
+        width: 16px;
+        height: 16px;
+        border-left: 2px solid #ff6400;
+        border-bottom: 2px solid #ff6400;
+        content: "";
+        left: 50%;
+        background: #fff;
+      }
+    }
+  }
+}
+// content section end
+
+// info-boxes section start
+#info-boxes {
+  padding: 0 0 30px;
+
+  .info-boxes {
+    .info-boxes-body {
+      margin: 0 -15px;
+      overflow: hidden;
+
+      .info-boxes-card {
+        padding: 0 15px;
+        width: calc(100% / 3);
+
+        .info-boxes-article {
+          background: #fafafa;
+          padding: 30px;
+          border-radius: 10px;
+          transition: background-color 0.3s, color 0.3s;
+          position: relative;
+          height: 100%;
+
+          .info-boxes-text {
+            .info-boxes-name {
+              font-family: "CocoSharp-Bold";
+              font-weight: 700;
+              font-size: 16px;
+              color: #ff6400;
+              text-decoration: none;
+              display: block;
+              overflow: hidden;
+              line-height: normal;
+              margin-bottom: 10px;
+            }
+            .info-boxes-summary {
+              font-family: "CocoSharp-Light";
+              font-weight: 200;
+              font-size: 14px;
+              color: #000;
+              line-height: 23px;
+              overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp: 7;
+              -webkit-box-orient: vertical;
+            }
+            .info-boxes-date {
+              line-height: 12px;
+              font-family: "CocoSharp-Regular";
+              font-weight: 400;
+              font-size: 12px;
+              color: rgba(50, 50, 50, 0.5);
+              margin-top: 15px;
+            }
+          }
+
+          &:hover {
+            background-color: #ff6400;
+            .info-boxes-name,
+            .info-boxes-summary,
+            .info-boxes-date {
+              color: #fafafa;
+            }
+
+            .info-boxes-value,
+            i {
+              color: #fafafa;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .info-boxes-btn {
+    margin-top: 35px;
+    text-align: center;
+
+    a {
+      padding: 17px 25px;
+    }
+  }
+}
+// info-boxes section end

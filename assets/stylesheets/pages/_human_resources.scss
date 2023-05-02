@@ -1,0 +1,234 @@
+// videobar section start
+#videobar {
+  .videobar {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .videobar-img {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 290px;
+      background-image: url("/assets/img/videobar.png");
+
+      .videobar-player {
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        cursor: pointer;
+
+        .videobar-icon {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+          width: 65px;
+          height: 65px;
+          line-height: 65px;
+          color: #fff;
+          i {
+            position: relative;
+            font-size: 65px;
+          }
+        }
+      }
+    }
+  }
+}
+// videobar section end
+
+// info-boxes section start
+#info-boxes {
+  .info-boxes {
+    padding-top: 35px;
+    .info-boxes-body {
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      margin: 0 -15px;
+      .info-boxes-card {
+        margin-bottom: 30px;
+        .info-boxes-icon {
+          font-size: 65px;
+          line-height: 65px;
+          margin-bottom: 10px;
+          i {
+            font-size: 60px;
+            color: #ff6400;
+          }
+        }
+        .info-boxes-bottom {
+          margin-top: 30px;
+          .info-boxes-value {
+            font-family: "CocoSharp-Bold";
+            font-weight: 700;
+            font-size: 20px;
+            color: #000;
+            line-height: normal;
+            margin-bottom: 10px;
+          }
+          .info-boxes-summary {
+            margin-bottom: 60px;
+          }
+        }
+      }
+    }
+  }
+}
+// info-boxes section end
+
+// ceos section start
+#ceos {
+  .ceos {
+    width: 100%;
+    .ceos-item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 45px 65px;
+      border-radius: 10px;
+      background-color: #fafafa;
+      margin-bottom: 0;
+      .ceos-img {
+        width: 105px;
+        height: 105px;
+
+        overflow: hidden;
+        margin-bottom: 15px;
+        img {
+          border-radius: 50%;
+          width: 100%;
+        }
+      }
+      .ceos-name {
+        font-family: "CocoSharp-Bold";
+        font-weight: 700;
+        font-size: 20px;
+        color: #000;
+        line-height: normal;
+        margin-bottom: 5px;
+      }
+      .ceos-position {
+        font-family: "CocoSharp-Regular";
+        font-weight: 400;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.5);
+        line-height: normal;
+      }
+      .ceos-text {
+        font-family: "CocoSharp-Regular";
+        font-weight: 400;
+        font-size: 14px;
+        color: #000;
+        line-height: 1.43;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+// ceos section end
+
+// about-us section start
+#about-us {
+  .about-us {
+    background-color: #fafafa;
+    margin-top: 30px;
+    border-radius: 10px;
+    .about-us-body {
+      padding: 45px 65px;
+      .about-us-h {
+        h1 {
+          color: #ff6400;
+          font-size: 32px;
+          line-height: 32px;
+          font-weight: 800;
+          font-family: "CocoSharp-ExtraBold";
+        }
+      }
+      .about-us-p {
+        font-family: "CocoSharp-Regular";
+        font-weight: 400;
+        font-size: 14px;
+        color: #000;
+        margin-top: 15px;
+        line-height: 1.43;
+      }
+    }
+  }
+}
+// about-us section end
+
+// benefits section start
+#benefits {
+  .benefits {
+    margin: 0 -15px;
+    padding-top: 30px;
+    .benefit {
+      padding: 0 15px;
+      width: calc(100% / 4);
+      .benefit-item {
+        padding: 35px 45px;
+        height: 200px;
+        border-radius: 10px;
+        background-color: #ff6400;
+        .benefit-icon {
+          font-size: 52px;
+          line-height: 52px;
+          margin-bottom: 15px;
+          color: #fff;
+        }
+        .benefit-caption {
+          font-size: 14px;
+          color: #fff;
+          line-height: 1.43;
+          font-family: "CocoSharp-Bold";
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+// benefits section end
+
+// values section start
+#values {
+  .values {
+    margin-top: 50px;
+    h2 {
+      margin-bottom: 20px;
+      color: #ff6400;
+      font-weight: 800;
+    }
+    .table {
+      table {
+        min-height: 1px;
+
+        tr {
+          th {
+            line-height: 20px;
+            font-family: "CocoSharp-Bold";
+            font-weight: 700;
+            font-size: 20px;
+            margin-bottom: 10px;
+            padding-left: 18px;
+            padding-right: 18px;
+          }
+        }
+        td {
+          padding-left: 18px;
+          padding-right: 18px;
+          width: 25%;
+          border-style: hidden;
+          font-family: "CocoSharp-Regular";
+          font-weight: 400;
+          font-size: 14px;
+          color: #000;
+          line-height: 23px;
+        }
+      }
+    }
+  }
+}
+// values section end
