@@ -925,29 +925,31 @@ input::-webkit-inner-spin-button {
   height: 880px;
 }
 
-header .outer-login {
-  margin: 3% auto;
-}
 header .outer-login .wrapper-inner {
-  margin: 0 15px;
-}
-header .outer-login .wrapper-inner .header {
+  margin: 0 25px;
   padding-bottom: 5px;
   font-size: 14px;
   margin-top: 68px;
   color: #fff;
 }
-header .outer-login .wrapper-inner .header .second-col {
+header .outer-login .wrapper-inner .second-col {
   text-align: right;
-  padding-right: 1px;
 }
-header .outer-login .wrapper-inner .header .second-col form a {
+header .outer-login .wrapper-inner .second-col form .selected {
+  font-weight: 700;
+  border-bottom: 1px solid;
+}
+header .outer-login .wrapper-inner .second-col form a {
   padding: 4px;
   cursor: pointer;
   text-decoration: none !important;
   color: #7c7c7c !important;
   border-radius: 2px;
   transition: 0.7s;
+}
+header .outer-login .wrapper-inner .second-col form a:hover {
+  background: #000;
+  color: #000 !important;
 }
 
 .main {
@@ -1102,13 +1104,92 @@ header .outer-login .wrapper-inner .header .second-col form a {
   opacity: 0.6;
   cursor: pointer;
 }
+.main .content-login #right form .login-forms .right-bottom .group {
+  position: relative;
+  margin-bottom: 33px;
+  text-align: left;
+}
+.main .content-login #right form .login-forms .right-bottom .group img {
+  top: 14px;
+  position: absolute;
+}
+.main .content-login #right form .login-forms .right-bottom .group .info-icon {
+  right: 10px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.main .content-login #right form .login-forms .right-bottom .group input {
+  font-size: 18px;
+  padding: 10px 10px 10px 37px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #d6d6d6;
+  color: #6f6f6f;
+  outline: none;
+}
+.main .content-login #right form .login-forms .right-bottom .group label {
+  top: -20px;
+  font-size: 14px;
+  color: #e28116;
+  font-weight: 400;
+  position: absolute;
+  pointer-events: none;
+  left: 25px;
+}
 .main .content-login #right form .login-forms .right-bottom .login-inputs {
   width: 100%;
   margin-top: 47px;
 }
 .main .content-login #right form .login-forms .right-bottom .login-bottom-inputs {
   width: 100%;
-  height: 145px;
+}
+.main .content-login #right form .login-forms .right-bottom .login-bottom-inputs .code-type {
+  width: 53%;
+}
+.main .content-login #right form .login-forms .right-bottom .login-bottom-inputs .code-type .group input {
+  padding: 10px 10px 10px 80px;
+}
+.main .content-login #right form .login-forms .right-bottom .login-bottom-inputs .code-type .group .code {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.main .content-login #right form .login-forms .right-bottom .login-bottom-inputs .code-type .group .code-label {
+  left: 55px;
+}
+.main .content-login #right form .login-forms .right-bottom .login-bottom-inputs .forgot-password {
+  width: 45%;
+  height: 60px;
+  padding-top: 12px;
+}
+.main .content-login #right form .login-forms .right-bottom .login-bottom-inputs .forgot-password a {
+  float: right;
+  color: #7977a1;
+  text-decoration: underline;
+  text-underline-position: under;
+  font-size: 17px;
+}
+.main .content-login #right form .login-forms .right-bottom .login-btn {
+  background: #ff6400;
+  text-align: right;
+  width: 95%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.main .content-login #right form .login-forms .right-bottom .login-btn input {
+  background: #ff6400;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: left;
+  padding: 13px 72px 13px 22px;
+  color: #fff;
+  border-radius: 5px;
+  width: 86%;
+  font-size: 17px;
+}
+.main .content-login #right form .login-forms .right-bottom .login-btn img {
+  padding: 14px;
 }
 
 header .topbar {

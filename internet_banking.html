@@ -24,21 +24,19 @@
   <body class="body">
     <!-- header start -->
     <header>
-      <div class="outer-login">
-        <div class="wrapper-inner">
-          <div class="header d-flex">
+      <div class="outer-login container">
+        <div class="row wrapper-inner ">
             <div class="col-lg-6 first-col">
               <img src="/assets/img/main-logo.webp" alt="main logo" />
             </div>
             <div class="col-lg-6 second-col">
               <form>
                 <a href="#">AZ</a>
-                <a href="#">EN</a>
+                <a href="#" class="selected">EN</a>
                 <a href="#">RU</a>
               </form>
             </div>
           </div>
-        </div>
       </div>
     </header>
     <!-- header end -->
@@ -46,7 +44,7 @@
     <!-- main start -->
     <main class="main">
       <!-- content-login start -->
-      <div class="content-login">
+      <div class="content-login container">
         <div class="content-login-card d-flex justify-content-between">
           <section id="left" class="d-flex flex-column align-items-center">
             <div class="slide-info">
@@ -90,40 +88,98 @@
                   </h3>
                 </div>
                 <div class="right-top d-flex">
-                    <div class="qr-code-wrapper text-center">
-                        <span class="text-center">
-                          <img src="/assets/img/qrCode.png" alt="qr code" />
-                        </span>
+                  <div class="qr-code-wrapper text-center">
+                    <span class="text-center">
+                      <img src="/assets/img/qrCode.png" alt="qr code" />
+                    </span>
+                  </div>
+                  <div class="login-type-button">
+                    <a href="#">
+                      <div class="by-type-active">
+                        <div class="type-inner-elements">
+                          <img
+                            src="/assets/img/login-mobile.webp"
+                            alt="login mobile"
+                          />
+                          <span class="value-btn-active">By Pincode</span>
+                        </div>
                       </div>
-                      <div class="login-type-button">
-                        <a href="#">
-                          <div class="by-type-active">
-                            <div class="type-inner-elements">
-                              <img
-                                src="/assets/img/login-mobile.webp"
-                                alt="login mobile"
-                              />
-                              <span class="value-btn-active">By Pincode</span>
-                            </div>
-                          </div>
-                        </a>
-                        <a href="#">
-                          <div class="by-type">
-                            <div class="type-inner-elements">
-                              <img src="/assets/img/asan.webp" alt="asan" />
-                              <span class="value-btn">Asan İmza</span>
-                            </div>
-                          </div>
-                        </a>
+                    </a>
+                    <a href="#">
+                      <div class="by-type">
+                        <div class="type-inner-elements">
+                          <img src="/assets/img/asan.webp" alt="asan" />
+                          <span class="value-btn">Asan İmza</span>
+                        </div>
                       </div>
+                    </a>
+                  </div>
                 </div>
                 <div class="info-wrapper">
-                    <img src="/assets/img/login-info.webp" alt="info">
-                    Use UBank to login by QR code
+                  <img src="/assets/img/login-info.webp" alt="info" />
+                  Use UBank to login by QR code
                 </div>
                 <div class="right-bottom">
-                    <div class="login-inputs"></div>
-                    <div class="login-bottom-inputs"></div>
+                  <div class="login-inputs">
+                    <div class="group">
+                      <img src="/assets/img/account.webp" />
+                      <input
+                        id="pin-code"
+                        type="text"
+                        name="pin-code"
+                        autocomplete="off"
+                        maxlength="15"
+                      />
+                      <a href="#" class="infoScreen" rel="">
+                        <img
+                          src="/assets/img/login-info.webp"
+                          class="info-icon"
+                        />
+                      </a>
+                      <label>PIN code of Identification card</label>
+                    </div>
+                    <div class="group">
+                      <img src="/assets/img/lock.webp" /><input
+                        id="password"
+                        type="password"
+                        name="password"
+                        autocomplete="off"
+                        value=""
+                        maxlength="16"
+                      />
+                      <label>Password</label>
+                    </div>
+                  </div>
+                  <div class="login-bottom-inputs d-flex">
+                    <div class="code-type">
+                      <div class="group">
+                        <input
+                          id="code"
+                          type="text"
+                          name="code"
+                          maxlength="8"
+                          autocomplete="off"
+                        />
+                        <img class="code" src="/assets/img/code.png" />
+                        <label class="code-label">Enter the code</label>
+                      </div>
+                    </div>
+                    <div class="forgot-password">
+                      <a href="#">Forgot password?</a>
+                    </div>
+                  </div>
+                  <div class="login-btn">
+                    <input
+                      id="login-btn"
+                      type="submit"
+                      name="login-btn"
+                      value="Login"
+                    />
+                    <img
+                      src="/assets/img/arrow-right-login.png"
+                      alt="arrow right"
+                    />
+                  </div>
                 </div>
               </div>
             </form>

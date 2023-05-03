@@ -16,3 +16,12 @@ dots.forEach((dot, index) => {
     }
   });
 });
+
+const langs = document.querySelectorAll(".second-col a");
+
+langs.forEach((lang, index) => {
+    lang.addEventListener("click", () =>{
+        langs.forEach((lang) => lang.classList.remove("selected"));
+        lang.classList.add("selected");
+    })
+})
