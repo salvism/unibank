@@ -1592,6 +1592,12 @@ footer .footer-bottom .footer-partners .footer-partner span img {
 .dark-mode * .topbar .langs div {
   background-color: #313131 !important;
 }
+.dark-mode * .topbar .bg-theme {
+  background-color: white !important;
+}
+.dark-mode * .topbar .bg-theme a i {
+  color: #000;
+}
 .dark-mode * .topbar .search-icon {
   background-color: #313131 !important;
 }
