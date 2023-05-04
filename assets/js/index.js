@@ -7,7 +7,19 @@ btns.forEach((btn) => {
   });
 });
 
-// function darkMode() {
-//     let element = document.body;
-//     element.classList.toggle("dark-mode");
-//  }
+let iconBtn = document.querySelector(".bg-theme");
+let icon = document.querySelector(".bg-theme a i");
+
+iconBtn.onclick = function () {
+  document.body.classList.toggle("dark-mode");
+  console.log("Toggled .dark-mode class on body element");
+  if (document.body.classList.contains("dark-mode")) {
+    icon.classList.remove("fa-moon")
+    icon.classList.add("fa-sun");
+    console.log("Changed icon to sun");
+  } else {
+    icon.classList.remove("fa-sun")
+    icon.classList.add("fa-moon");
+    console.log("Changed icon to moon");
+  }
+};

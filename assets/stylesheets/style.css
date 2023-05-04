@@ -1568,6 +1568,118 @@ footer .footer-bottom .footer-partners .footer-partner span img {
   font-family: "CocoSharp-Bold";
 }
 
+.dark-mode {
+  background-color: black !important;
+}
+.dark-mode * div {
+  color: white !important;
+}
+.dark-mode * a {
+  color: white !important;
+}
+.dark-mode * .topbar {
+  background-color: #000 !important;
+}
+.dark-mode * .topbar .types {
+  background-color: #313131 !important;
+}
+.dark-mode * .topbar .types button {
+  background-color: #313131 !important;
+}
+.dark-mode * .topbar .active a {
+  color: #ff6400 !important;
+}
+.dark-mode * .topbar .langs div {
+  background-color: #313131 !important;
+}
+.dark-mode * .topbar .search-icon {
+  background-color: #313131 !important;
+}
+.dark-mode * .hotline,
+.dark-mode * .ibanking {
+  border: 1px solid white;
+}
+.dark-mode * .dots-container .dot {
+  border: 3px solid #1a1a1a;
+  background: #1a1a1a;
+}
+.dark-mode * .dots-container .active {
+  background-color: rgba(255, 100, 0, 0.8) !important;
+  border: none;
+}
+.dark-mode * .stats-body {
+  background: #1a1a1a !important;
+}
+.dark-mode * .stats-body h5 {
+  color: white !important;
+}
+.dark-mode * .stats-body p {
+  color: white !important;
+}
+.dark-mode * .stats-body:hover {
+  background: #1a1a1a !important;
+}
+.dark-mode * .appbar-wrapper {
+  background: #1a1a1a !important;
+}
+.dark-mode * .appbar-wrapper p {
+  color: white !important;
+}
+.dark-mode * .appbar-wrapper .second-btn,
+.dark-mode * .appbar-wrapper .third-btn {
+  border: 1px solid #969696 !important;
+}
+.dark-mode * .appbar-wrapper .appbar-labels span {
+  -webkit-filter: invert(100%);
+}
+.dark-mode * .exchange-wrapper {
+  background: #1a1a1a !important;
+}
+.dark-mode * .exchange-wrapper td {
+  color: white !important;
+}
+.dark-mode * .exchange-wrapper td i {
+  color: white !important;
+}
+.dark-mode * .exchange-wrapper .exchange-converter {
+  background-color: #464646 !important;
+}
+.dark-mode * .exchange-wrapper .exchange-converter .exchangecalc-inp {
+  background-color: #313131 !important;
+}
+.dark-mode * .exchange-wrapper .exchange-converter .exchangecalc-select {
+  background-color: #313131 !important;
+}
+.dark-mode * .exchange-wrapper .exchange-converter .exchangecalc-select select {
+  background-color: #313131 !important;
+}
+.dark-mode * .exchange-wrapper .exchange-converter .exchangecalc-arrow i {
+  color: #ff6400;
+}
+.dark-mode * .info-boxes-article {
+  background: #1a1a1a !important;
+}
+.dark-mode * .network-location,
+.dark-mode * .network-contact {
+  background: #1a1a1a !important;
+}
+.dark-mode * .network-location p,
+.dark-mode * .network-contact p {
+  color: white !important;
+}
+.dark-mode * footer {
+  border-color: white;
+}
+.dark-mode * footer h5 {
+  color: white !important;
+}
+.dark-mode * footer #nav-link {
+  color: white !important;
+}
+.dark-mode * footer .footer-socnets i {
+  color: black !important;
+}
+
 #content h1 {
   font-size: 32px;
   line-height: 32px;

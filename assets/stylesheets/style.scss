@@ -1,8 +1,136 @@
 @import "base/fonts", "base/reset";
 @import "pages/responsive", "pages/index", "pages/service_network",
-  "pages/human_resources", "pages/cards", "pages/internet_banking", "pages/index_corp";
+  "pages/human_resources", "pages/cards", "pages/internet_banking",
+  "pages/index_corp";
 @import "layout/header", "layout/footer";
 @import "components/slider", "components/buttons";
+
+// dark mode start
+.dark-mode {
+  background-color: black !important;
+  * {
+    div {
+      color: white !important;
+    }
+    a {
+      color: white !important;
+    }
+    .topbar {
+      background-color: #000 !important;
+      .types {
+        background-color: #313131 !important;
+        button {
+          background-color: #313131 !important;
+        }
+      }
+      .active {
+        a {
+          color: #ff6400 !important;
+        }
+      }
+      .langs {
+        div {
+          background-color: #313131 !important;
+        }
+      }
+      .search-icon {
+        background-color: #313131 !important;
+      }
+    }
+    .hotline,
+    .ibanking {
+      border: 1px solid white;
+    }
+    .dots-container {
+      .dot {
+        border: 3px solid #1a1a1a;
+        background: #1a1a1a;
+      }
+      .active {
+        background-color: rgba(255, 100, 0, 0.8) !important;
+        border: none;
+      }
+    }
+    .stats-body {
+      background: #1a1a1a !important;
+      h5 {
+        color: white !important;
+      }
+      p {
+        color: white !important;
+      }
+      &:hover {
+        background: #1a1a1a !important;
+      }
+    }
+    .appbar-wrapper {
+      background: #1a1a1a !important;
+      p {
+        color: white !important;
+      }
+      .second-btn,
+      .third-btn {
+        border: 1px solid #969696 !important;
+      }
+      .appbar-labels {
+        span {
+          -webkit-filter: invert(100%);
+        }
+      }
+    }
+    .exchange-wrapper {
+      background: #1a1a1a !important;
+      td {
+        color: white !important;
+        i {
+          color: white !important;
+        }
+      }
+      .exchange-converter {
+        background-color: #464646 !important;
+        .exchangecalc-inp {
+          background-color: #313131 !important;
+        }
+        .exchangecalc-select {
+          background-color: #313131 !important;
+          select {
+            background-color: #313131 !important;
+          }
+        }
+        .exchangecalc-arrow {
+          i {
+            color: #ff6400;
+          }
+        }
+      }
+    }
+    .info-boxes-article {
+      background: #1a1a1a !important;
+    }
+    .network-location,
+    .network-contact {
+      background: #1a1a1a !important;
+      p {
+        color: white !important;
+      }
+    }
+    footer {
+      h5 {
+        color: white !important;
+      }
+      #nav-link {
+        color: white !important;
+      }
+      .footer-socnets {
+        i {
+          color: black !important;
+        }
+      }
+      border-color: white;
+    }
+  }
+}
+// dark mode end
 
 // content section start
 #content {
